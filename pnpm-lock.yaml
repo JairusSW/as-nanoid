@@ -1,0 +1,39 @@
+dependencies:
+  nanoid: 3.1.20
+devDependencies:
+  '@assemblyscript/loader': 0.18.15
+  assemblyscript: 0.18.15
+lockfileVersion: 5.2
+packages:
+  /@assemblyscript/loader/0.18.15:
+    dev: true
+    resolution:
+      integrity: sha512-kUWC6tBJQiI38vFT6L9M2zlzJ3/Wgh8JZEIMekgkhXjLkDTMWcmOZX085RsOx5c9BdwrqMwaj/iMIpCbid214g==
+  /assemblyscript/0.18.15:
+    dependencies:
+      binaryen: 100.0.0
+      long: 4.0.0
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-s1N1qwdBhen2SLQApYCtRIPWm1Am3oAbW58GCEKbeN6ZbQRh7nq0pv4RDqKw6CgK7dySn/F2S1D6p0scyRbQRw==
+  /binaryen/100.0.0:
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-nxOt8d8/VXAuSVEtAWUdKrqpqCy365QqD223EzzB1GzS5himiZAfM/R5lXx+M/5q8TB8cYp3tYxv5rTjNTJveQ==
+  /long/4.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
+  /nanoid/3.1.20:
+    dev: false
+    engines:
+      node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1
+    hasBin: true
+    resolution:
+      integrity: sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
+specifiers:
+  '@assemblyscript/loader': ^0.18.15
+  assemblyscript: ^0.18.15
+  nanoid: ^3.1.20

@@ -1,0 +1,37 @@
+{
+  "devDependencies": {
+    "@assemblyscript/loader": "^0.18.15",
+    "assemblyscript": "^0.18.15"
+  },
+  "scripts": {
+    "asbuild:untouched": "asc assembly/index.ts --target debug",
+    "asbuild:optimized": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized",
+    "test": "node tests"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.20"
+  },
+  "name": "as-nanoid",
+  "version": "1.0.0",
+  "description": "NanoID Implementation For AssemblyScript",
+  "types": "./assembly/index.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairusSW/as-nanoid.git"
+  },
+  "keywords": [
+    "assemblyscript",
+    "wasm",
+    "nanoid"
+  ],
+  "author": "JairusSW",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JairusSW/as-nanoid/issues"
+  },
+  "homepage": "https://github.com/JairusSW/as-nanoid#readme"
+}
